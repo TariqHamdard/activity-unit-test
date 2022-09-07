@@ -44,20 +44,7 @@ class CalculatorServiceTest {
         assertEquals(expected, actual);
     }
 
-    @Test
-    void testAdd() {
 
-        // setup
-        when(calculator.add(2,2, 2)).thenReturn(6);
-        int expected = 6;
-
-        // exercise
-        int actual = service.execute("add",2,2, 2);
-
-        // assert
-        assertEquals(expected, actual);
-
-    }
 
     @Test
     public void testSubtract() {

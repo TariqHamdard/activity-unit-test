@@ -1,4 +1,4 @@
-package Unicorn;
+package com.unicorn;
 
 import java.util.Arrays;
 
